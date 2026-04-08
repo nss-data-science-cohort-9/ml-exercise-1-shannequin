@@ -26,7 +26,7 @@ In some cases, we may want to inspect the model after it has been fit. Here, sin
 
 The next step is to evaluate how well the model does on the unseen data. 
 
-6. Use the predict method to generate a set of predictions on y_test. Save the results to y_pred. Question: What type of object is y_pred? What is its shape and how does it compare to y_test?
+6. Use the predict method to generate a set of predictions on X_test. Save the results to y_pred. Question: What type of object is y_pred? What is its shape and how does it compare to y_test?
 
 Now, we can evaluate how well the model did. There are a number of different metrics that could be used. Let's look at five of them, mean squared error, root mean squared error, mean absolute error, mean absolute percentage error, and R^2 score. For more information on these metrics, see https://developer.nvidia.com/blog/a-comprehensive-overview-of-regression-evaluation-metrics/.
 
